@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Rubik+Mono+One&family=Titan+One&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Titan One", cursive;
+}
+
+.titulo {
+  font-family: "Titan One", cursive;
+  text-align: center;
+  color: #39875B;
+}
+
+.subtitulo {
+  font-family: "Titan One", cursive;
+  text-align: center;
+  color: #39875B;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.redes i {
+  margin: 5px;
+}
+
+.redes a {
+  color: black;
+}
+
+.verde {
+  color: #39875B;
+}
+
+.titulo-carousel {
+  position: absolute;
+  right: 15%;
+  top: 125px;
+  left: 15%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fondo-header {
+  background-color: white;
+}
+
+.logo {
+  width: 100px;
+}
+
+.barra {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  font-size: 20px;
+  color: #39875B;
+}
+
+.link:hover {
+  background-color: #39875B;
+  color: white;
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+}
+
+.servicios li {
+  margin: 10px;
+  list-style: none;
+  color: #39875B;
+  font-weight: bold;
+}
+
+.img-producto {
+  object-fit: contain;
+}
+
+.btn-violeta {
+  background-color: #57375D;
+  color: white;
+}
+
+.btn-violeta:hover {
+  background-color: #451952;
+  color: white;
+}
+
+.caja {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.noticias {
+  display: flex;
+  justify-content: center;
+}
+
+.iframe {
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.border {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nom-mascota {
+  color: #57375D;
+}
+
+.ubicacion {
+  border-radius: 10px;
+}
+
+.comentario {
+  color: #39875B;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #D4F7E3;
+}
+
+@media (max-width: 1023px) {
+  .noticias {
+    flex-direction: column;
+  }
+  .titulo-carousel {
+    top: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .titulo-carousel {
+    top: 80px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

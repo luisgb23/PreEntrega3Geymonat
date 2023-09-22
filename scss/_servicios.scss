@@ -1,0 +1,11 @@
+.servicios{
+    display: flex;
+    justify-content: center;
+}
+
+.servicios li{
+    margin: 10px;
+    list-style: none;
+    color: $color-verde;
+    font-weight: bold;
+}

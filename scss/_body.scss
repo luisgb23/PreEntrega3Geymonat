@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: 'Titan One', cursive;
+}
+
+@mixin fuente{
+    font-family: 'Titan One', cursive;
+    text-align: center;
+}
+.titulo{
+    @include fuente;
+    color: $color-verde;
+}
+
+.subtitulo{
+    @include fuente;
+    color: $color-verde;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.redes i{
+    margin: 5px;
+}
+
+.redes a{
+    color: $color-negro;
+}
+
+.verde{
+    color: $color-verde;
+}

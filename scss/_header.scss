@@ -1,0 +1,22 @@
+.fondo-header{
+    background-color: $color-blanco;
+}
+
+.logo{
+    width: 100px;
+}
+
+.barra{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.link{
+    font-size: 20px;
+    color: $color-verde;
+}
+
+.link:hover {
+    background-color: $color-verde;
+    color: $color-blanco;
+}

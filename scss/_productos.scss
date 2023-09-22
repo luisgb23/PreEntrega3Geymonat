@@ -1,0 +1,17 @@
+.img-producto{
+    object-fit: contain;
+}
+
+.btn-violeta{
+    background-color: $color-violeta;
+    color: $color-blanco;
+}
+
+.btn-violeta:hover{
+    background-color: $color-violeta-oscuro;
+    color: $color-blanco;
+}
+
+.caja{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

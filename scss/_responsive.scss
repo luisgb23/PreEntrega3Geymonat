@@ -1,0 +1,16 @@
+@media (max-width:1023px){
+    .noticias{
+        flex-direction: column;
+    }
+
+    .titulo-carousel{
+        top: 100px;
+    }
+
+}
+
+@media(max-width:768px){
+    .titulo-carousel{
+        top: 80px;
+    }
+}

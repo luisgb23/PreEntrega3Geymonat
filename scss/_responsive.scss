@@ -3,14 +3,16 @@
         flex-direction: column;
     }
 
-    .titulo-carousel{
-        top: 100px;
-    }
-
 }
 
 @media(max-width:768px){
     .titulo-carousel{
         top: 80px;
+    }
+    .ubicacion{
+        margin-top: 20px;
+    }
+    .ratio{
+        margin-bottom: 20px;
     }
 }

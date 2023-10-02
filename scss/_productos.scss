@@ -15,3 +15,13 @@
 .caja{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.btn-cancelar{
+    background-color: $color-rojo;
+    color: $color-blanco;
+}
+
+.btn-cancelar:hover{
+    background-color: $color-rojo-oscuro;
+    color: $color-blanco;
+}
